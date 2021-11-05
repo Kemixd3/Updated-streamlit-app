@@ -176,7 +176,7 @@ def clearConsole():
         command = 'cls'
     os.system(command)
 
-df = pd.read_csv('out.zip')
+df = pd.read_csv('kryp/streamlit-app-main/out.zip')
 
 
 total_rows2= len(df.index)+1
